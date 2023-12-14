@@ -12,16 +12,16 @@ third_number = int(input("Enter 3rd integer number: "))
 def add_or_multiply():
     if first_number == second_number == third_number:
         multiply_numbers = first_number * second_number * third_number
-        print(f"The product of {first_number}, {second_number}, and {third_number} is {multiply_numbers}")
+        print(f"The result of {first_number}, {second_number}, and {third_number} is {multiply_numbers}")
     elif first_number == second_number:
         multiply_numbers = first_number * second_number + third_number
         print(f"The result of {first_number}, {second_number}, and {third_number} is {multiply_numbers}")
     elif first_number == third_number:
         multiply_numbers = (first_number * third_number) + second_number
-        print(f"The product of {first_number}, {second_number}, and {third_number} is {multiply_numbers}")
+        print(f"The result of {first_number}, {second_number}, and {third_number} is {multiply_numbers}")
     elif second_number == third_number:
         multiply_numbers = (second_number * third_number) + first_number
-        print(f"The product of {first_number}, {second_number}, and {third_number} is {multiply_numbers}")
+        print(f"The result of {first_number}, {second_number}, and {third_number} is {multiply_numbers}")
     else:
         add_numbers = first_number + second_number + third_number
         print(f"The sum of {first_number}, {second_number}, and {third_number} is {add_numbers}")
